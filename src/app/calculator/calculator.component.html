@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-xs-1"></div>
+  <div class="col-xs-4" id="calc">
+    <h1>Simple Calculator</h1>Child-component<br><br><br>
+    number1:<input type = number [(ngModel)]="number1" id="x"><br><br>
+    number2:<input type = number [(ngModel)]="number2" id="y"><br><br>
+    result: {{result}}<br><br>
+    <button (click)="Add()">ADD</button>
+    <button (click)="Sub()">SUBTRACT</button>
+    <button (click)="Div()">DIVIDE</button>
+    <button (click)="Mul()">MULTIPLY</button>
+  </div>
+  <div class="col-xs-8"></div>
+</div>
