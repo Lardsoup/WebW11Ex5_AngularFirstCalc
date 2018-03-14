@@ -1,4 +1,4 @@
-#calc
+#result
 {
     background-color: black;
     color: white;
@@ -7,16 +7,4 @@
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-#x, #y
-{
-    color: black;
-    margin-left: 20px
-}
-
-button
-{
-    color: black;
-    margin-left: 20px;
 }
